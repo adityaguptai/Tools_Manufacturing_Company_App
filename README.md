@@ -1,4 +1,4 @@
-# Tools Manufacturing Company on Ionic 3 [Progressive App](Prototype)🎮
+# Tools Manufacturing Company on Ionic 3 - Progressive App(Prototype)🎮
 
 ## Screenshots
 <img src="https://image.ibb.co/efxxEb/ice_screenshot_20171206_210230.png"/>
