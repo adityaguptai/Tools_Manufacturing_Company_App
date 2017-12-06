@@ -1,0 +1,84 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>
+      Place Order
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+<ion-content padding style="background:url(assets/img/VXEvfcFBRaiQoCjnFyi8_b0204e0d72b646a6bc04f83718f75c7d.jpg) no-repeat center;background-size:cover;" id="page10">
+  <form id="placeOrder-form8">
+    <img src="assets/img/PJWf5GnqQWaiLTdaLqB7_16757-200.png" style="display:block;width:50%;height:auto;margin-left:auto;margin-right:auto;" />
+    <!-- <div style="width:100%;height:220px;margin:0px 0px;line-height:250px;background-color:#e8ebef;text-align:center;">
+      <i class="icon ion-image" style="font-size:64px;color:#888;vertical-align:middle;"></i>
+    </div>
+    <div style="width:100%;height:220px;margin:0px 0px;line-height:250px;background-color:#e8ebef;text-align:center;">
+      <i class="icon ion-image" style="font-size:64px;color:#888;vertical-align:middle;"></i>
+    </div> -->
+    <ion-item id="placeOrder-select7">
+      <ion-label>
+        Product
+      </ion-label>
+      <ion-select name="">
+        <ion-option>
+          Spanner
+        </ion-option>
+        <ion-option>
+          Wrenches
+        </ion-option>
+        <ion-option>
+          Pliers
+        </ion-option>
+        <ion-option>
+          Cutters
+        </ion-option>
+        <ion-option>
+          Vices
+        </ion-option>
+        <ion-option>
+          Hammer
+        </ion-option>
+        <ion-option></ion-option>
+      </ion-select>
+    </ion-item>
+
+    <ion-item id="placeOrder-select8">
+      <ion-label>
+        Select
+      </ion-label>
+      <ion-select name="">
+        <ion-option>
+          20cm
+        </ion-option>
+        <ion-option>
+          15cm
+        </ion-option>
+        <ion-option>
+          12cm
+        </ion-option>
+        <ion-option>
+          10cm
+        </ion-option>
+      </ion-select>
+    </ion-item>
+
+    <ion-item id="placeOrder-input15">
+      <ion-label>
+        Quantity
+      </ion-label>
+      <ion-input type="number" placeholder=""></ion-input>
+    </ion-item>
+    <ion-item id="placeOrder-toggle3">
+      <ion-label>
+        Prime
+      </ion-label>
+      <ion-toggle color="balanced" checked="false"></ion-toggle>
+    </ion-item>
+
+    <button id="placeOrder-button4" ion-button color="positive" block (click)="submit('middle')">
+      Place Order
+    </button>
+  </form>
+</ion-content>

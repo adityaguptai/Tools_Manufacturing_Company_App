@@ -1,0 +1,104 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>
+      In-charge
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+<ion-content padding style="background:url(assets/img/HaCye2RyTfGsW3lqouTc_realistic_white_wooden_board_background_580290.jpg) no-repeat center;background-size:cover;background-color:#FDFFFF;" id="page2">
+  <img src="assets/img/BoKVyQ74S3KK251ubePL_Labor-Icon.png" style="display:block;width:100%;height:auto;margin-left:auto;margin-right:auto;" />
+  <form id="inCharge-form2">
+    <ion-item id="inCharge-input1">
+      <ion-label>Date</ion-label>
+      <ion-datetime displayFormat="DD MMM YYYY" ></ion-datetime>
+    </ion-item>
+
+
+    <ion-item id="inCharge-input6">
+      <ion-label>Time</ion-label>
+      <ion-datetime displayFormat="h:mm A" pickerFormat="h mm A" ></ion-datetime>
+    </ion-item>
+
+    <ion-item id="inCharge-select2">
+      <ion-label>
+        Phase
+      </ion-label>
+      <ion-select name="phase_name">
+        <ion-option>
+          Blanking Press
+        </ion-option>
+        <ion-option>
+          Dyes
+        </ion-option>
+        <ion-option>
+          Heat Furnace
+        </ion-option>
+        <ion-option>
+          Punching Die
+        </ion-option>
+        <ion-option>
+          Trimming
+        </ion-option>
+        <ion-option>
+          Grinding
+        </ion-option>
+        <ion-option>
+          Broaching
+        </ion-option>
+        <ion-option>
+          Heat Treatment
+        </ion-option>
+        <ion-option>
+          Metal Coating/Plating
+        </ion-option>
+        <ion-option>
+          Polishing
+        </ion-option>
+        <ion-option>
+          Packing
+        </ion-option>
+      </ion-select>
+    </ion-item>
+    <ion-item id="inCharge-select3">
+      <ion-label>
+        Product Name
+      </ion-label>
+      <ion-select name="product_name">
+        <ion-option>
+          Wrench
+        </ion-option>
+        <ion-option>
+          Vices
+        </ion-option>
+        <ion-option>
+          Pliers
+        </ion-option>
+        <ion-option>
+          Cutters
+        </ion-option>
+        <ion-option>
+          Spanner
+        </ion-option>
+        <ion-option>
+          Air Handle
+        </ion-option>
+      </ion-select>
+    </ion-item>
+    <ion-item id="inCharge-input5">
+      <ion-label>
+        Total Weight
+      </ion-label>
+      <ion-input type="number" placeholder="" name="product_name"></ion-input>
+    </ion-item>
+    <ion-item id="inCharge-textarea1">
+      <ion-label>
+        Text
+      </ion-label>
+      <ion-textarea placeholder="Remarks"></ion-textarea>
+    </ion-item>
+    <button ion-button color="secondary" block  (click)="submit('middle')">Submit Data</button>
+  </form>
+</ion-content>

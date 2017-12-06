@@ -1,0 +1,57 @@
+<ion-menu [content]="mainContent">
+  <ion-header>
+    <ion-toolbar>
+      <ion-title>
+        Menu
+      </ion-title>
+    </ion-toolbar>
+  </ion-header>
+  <ion-content id="side-menu21" style="background-color:#FCFCFC;">
+    <ion-card id="menu-card26">
+      <ion-list>
+        <ion-item id="menu-list-item-container11">
+          <div id="menu-markdown19" class="show-list-numbers-and-dots">
+            <p style="margin-top:0px;color:#000000;">
+              Signed in as
+            </p>
+          </div>
+        </ion-item>
+        <ion-item color="none" id="menu-list-item39">
+          <ion-avatar item-left>
+            <img src="assets/img/bYC5c4O0TDa3yBHdlQOo_male3-512.png" />
+          </ion-avatar>
+          <h2>
+            Hari Sharma
+          </h2>
+          <h3>
+            In-Charge
+          </h3>
+        </ion-item>
+      </ion-list>
+    </ion-card>
+    <ion-list id="menu-list3">
+      <ion-item color="positive" menuClose="" on-click="goToInCharge()" id="menu-list-item4">
+        <ion-icon name="home" item-left></ion-icon>
+        Home
+      </ion-item>
+      <ion-item color="assertive" id="menu-list-item51">
+        <ion-icon name="log-out" item-left></ion-icon>
+        Log Out
+      </ion-item>
+      <ion-item  menuClose="" on-click="goToManager()" id="menu-list-item41">
+        <ion-icon name="star" item-left></ion-icon>
+        Manager
+      </ion-item>
+      <ion-item color="balanced" menuClose="" on-click="goToInCharge()" id="menu-list-item5">
+        <ion-icon name="people" item-left></ion-icon>
+        Incharge
+      </ion-item>
+      <ion-item color="energized" menuClose="" on-click="goToCustomer()" id="menu-list-item6">
+        <ion-icon name="cart" item-left></ion-icon>
+        Customer
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-menu>
+
+<ion-nav #mainContent [root]="rootPage"></ion-nav>
