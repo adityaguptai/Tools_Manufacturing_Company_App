@@ -3,7 +3,7 @@
 <img src="https://image.ibb.co/efxxEb/ice_screenshot_20171206_210230.png"/>
 <img src="https://image.ibb.co/ch7VZb/ice_screenshot_20171206_210258.png"/>
 
-We designed a solution 
+We designed a solution to improve the efficiency of a tools manufacuring company and designed the app for data entry and data visualization for manager and also customers can order from the app.
 
 ## Technologies Used
 
